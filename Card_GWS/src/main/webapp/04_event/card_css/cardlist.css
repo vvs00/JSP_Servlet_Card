@@ -1,0 +1,140 @@
+#viewbody {
+	background-color: #f1f5fe;
+}
+
+#cardline {
+	display: flex;
+	justify-content: space-around;
+	background-color: #e7e5dd;
+}
+
+#cardlist {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	min-width: 1200px;
+	max-width: 1200px;
+}
+
+#card {
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 300px;
+	height: 300px;
+}
+
+#cardimg {
+	width: 300px;
+	height: 180px;
+	border: 0px;
+}
+
+#cardcontainer:hover {
+	cursor: pointer;
+}
+
+#cardinfo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-width: 1000px;
+	max-height: 1000px;
+}
+
+#maininfo {
+	display: flex;
+	align-items: center;
+	min-width: 1000px;
+	max-height: 1000px;
+}
+
+#viewimg {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+#buttoncan {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#cardbutton {
+	width: 550px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #427bf4;
+	font-weight: 600;
+	letter-spacing: -.32px;
+	color: #fff;
+	border: 0px;
+	border-radius: 15px;
+	outline: none;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+#blank {
+	height: 50px;
+}
+
+#map {
+	display: flex;
+	justify-content: center;
+}
+
+#listbox {
+	background-color: #f1f5fe;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 50px;
+	text-align: center;
+	line-height: 140px;
+}
+
+#list {
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#mapinfo {
+	width: 1000px;
+	background-color: #fff;
+	border: 3px solid black;
+	border-radius: 15px;
+	outline: none;
+	min-width: 1000px;
+	max-height: 1000px;
+}
+
+#cardname {
+	font-size: 20px;
+	font-weight: 1000;
+	color: #242424;
+}
+
+#card_write {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+#card_table {
+	margin-right: 50px;
+}

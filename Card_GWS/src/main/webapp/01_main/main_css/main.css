@@ -1,0 +1,170 @@
+#body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#point:hover{
+	cursor: pointer;
+}
+
+#point{
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#slid {
+	width: 200px; 
+	height: 325px
+}
+
+#slid_back{
+	margin-top:20px;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#slid_img {
+	width: 1900px;
+	height: 300px;
+}
+
+#text {
+	margin-top: 50px;
+	width: 1420px;
+	height: 270px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#board {
+	width: 400px;
+	height: 300px;	
+}
+
+#img_back {
+	height: 600px;
+	width: 100%;
+	background-color: #ebecf0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#img {
+	width: 940px;
+	height: 562px;
+}
+
+#popular_body{
+	width: 100%;
+	height: 700px;
+	background-color: #ebecf0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#popular_back {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 1100px;
+}
+
+#popular {
+	margin-top: 18px;
+	width: 400px;
+	height: 580px;
+	border: solid 3px;
+	border-radius: 3%;
+	border-color: whitesmoke;
+	background-color: white;
+}
+
+
+
+#cardback{
+	width: 100%;
+	height: 200px;
+	border-radius: 2%;
+}
+
+#card_section {
+	margin-top:20px;
+	display: flex;
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+#card_section:hover{
+	cursor: pointer;
+}
+
+#img_section{
+	width: 100px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#img_2_body {
+	position: relative;
+	margin-right: 40px;
+	margin-left: 20px;
+}
+
+.vrtclImage {
+	height: 45px;
+	width: 26px;
+}
+
+.hrzntImage {
+	width: 45px;
+	height: 26px;
+}
+
+#img_2 {
+	width: 100%;
+	height: 100%;
+}
+
+#our {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 250px;
+}
+
+#information {
+	width: 1420px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+#info_list {
+	width: 400px;
+	height: 600px;
+	background-color: azure;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#info_list:hover{
+	cursor: pointer;
+}
+
+#img_3 {
+	width: 380px;
+	height: 300px;
+}

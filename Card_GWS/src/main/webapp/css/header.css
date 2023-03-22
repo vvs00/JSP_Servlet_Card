@@ -1,0 +1,50 @@
+#header {
+   width: 100%; 
+   margin: 0;
+   height: 150px;
+}
+#header_wrap{
+   margin: 0 auto;
+   width: 1420px;
+}
+#logo{
+    width: 240px;
+    height: 65px;
+    padding: 36px 30px 25px 0px;
+    display: inline-block;
+    float: left;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+#div_login{
+   display: inline-block;
+   width: 1120px;
+   height: 50px;
+   text-align: right;
+   line-height: 40px;
+   font-size : 25px;
+}
+#div_login a{
+   font-size: 18px;
+    color: #8c6239;
+    font-weight: 300;
+}
+#div_menu{
+   display: inline-block;
+   width: 1120px;
+   height: 50px;
+   text-align: right;
+}
+
+#div_menu a.nav-link{
+   width: 200px;
+    padding: 0px 0px 0px 100px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #212529;
+    font-family: 'Noto Sans KR', sans-serif;
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
+#title{
+   font-family: 'Gowun Batang', serif;
+   text-align : center;
+   color: #212529;
+   margin-bottom: 50px;
+}
+
+#wishList{
+	min-height: 600px;
+	display: inline-block;
+}
+
+#wishList .card{
+	width: 280px;
+    height: 435px;
+    padding: 13px;
+    border: peachpuff;
+    border-radius: 45px;
+    background-color: peachpuff;
+    margin: 8px;
+    display: inline-block;
+    float: left;
+}
+
+.card img{
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p{
+	text-align: left;
+}
+
+.card p.cardname{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.card .delbutton{
+  	 margin: 20px;
+  	 position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    background-color: #ff5f2e;
+    color: #e1eef6;
+}
+
+.card .delbutton:hover {
+    background-color: #ce6d39;
+    color: #ffeee4;
+}
